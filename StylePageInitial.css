@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    background-image: url("tulips-3339416.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page {
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 85%;
+    height: 85vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    gap: 150px;
+    bottom: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px ;
+    position: relative;
+    left: 600px;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 500; 
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+nav .active {
+    color: rgb(212, 99, 118);
+}
+
+.nav-item::after {
+    content: ''; /* Ligne */
+    position: absolute;
+    bottom: -3px;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+.nav-item:hover::after {
+    transform: scale(1);
+}
+
+.active:hover::after {
+    background-color: rgb(212, 99, 118);
+    box-shadow: 0 0 5px rgb(212, 99, 118);
+}
+
+header {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero-content h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 30px;
+    position: relative;
+    right: 330px;
+    
+}
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 40px;
+    position: relative;
+    right: 300px;
+}
+.hero-btn{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: rgb(253, 211, 218);
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 45px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right: 530px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background-color: rgb(255, 237, 210);
+    color: palevioletred;
+}
+img{
+    width: 350px;
+    position: relative;
+    right: 250px;
+}
+
+
+
+/* SECOND PAGE  */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.shop-hero {
+    background-image: url("tulips-3339416.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-shop {
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 85%;
+    height: 85vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-shop{
+    position: relative;
+    left: 2px;
+    border-radius: 15px;
+    border: 3px solid wheat;
+}
+.title{
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    bottom: 50px ;
+    right: 390px;
+    font-weight: bold;
+
+}
+.subtitle{
+    font-size: 50px;
+    position: relative;
+    bottom: 50px ;
+    right: 260px;
+    font-weight: bold;
+}
+p{
+    position: relative;
+    bottom: 50px;
+    width: 900px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.btn-shop{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    color: rgb(255, 248, 249);
+    background-color: wheat;
+    position: relative;
+    right: 400px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+
+.btn-shop:hover{
+    background-color: white;
+    color: wheat;
+    border: 1px solid white;
+}
+
+
+
+/* page 3 */
+
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.project-hero{
+    background-image: url("tulips-3339416.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-project {
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 85%;
+    height: 85vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-pro{
+    color: rgb(191, 45, 91);
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    font-weight: bold;
+}
+
+.subtitle-pro{
+    font-size: 50px;
+    position: relative;  
+    left: 200px;
+    font-weight: bold;
+}
+
+.para-project{
+    position: relative;
+    text-align: left;
+    left: 400px;
+    top: 2px;
+    width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.img-project{
+    position: relative;
+    right: 860px;
+    border-radius: 15px;
+    border: 3px solid rgb(226, 164, 184);
+}
+
+
+
+.btn-project{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid  rgb(191, 45, 91);
+    border-radius: 15px;
+    color: rgb(255, 248, 249);
+    background-color: rgb(191, 45, 91);
+    position: relative;
+    left: 60px;
+    top: 30px;
+    cursor: pointer;
+}
+
+
+.btn-project:hover{
+    background-color: white;
+    color:  rgb(191, 45, 91);
+    border: 1px solid white;
+}
+
+
+
+/* page4 */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-hero {
+    background-image: url("tulips-3339416.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-login {
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 85%;
+    height: 85vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jj{
+    font-size: 60px;
+    position: relative;
+    bottom: 80px;
+    color: rgb(247, 82, 137);
+}
+
+.item{
+    color: rgb(255, 255, 255);
+    outline: none;
+    background: none;
+    padding: 0.5rem 1.2rem;
+    margin-top: 13px;
+    width: 530px;
+    height: 40px;
+    margin-left: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+input::placeholder{
+    color: rgb(255, 249, 252);
+    padding: 0.3rem 0.3rem ;
+}
+.check-login{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-login{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:transparent ;
+    border: 1px solid white;
+    color: rgb(215, 152, 173) ;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color:  rgb(215, 152, 173) ;
+    color: rgb(255, 255, 255) ;
+}
+
+
+
+
+
+
+
+
+
+/* page 5 */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.CONTACT-hero{
+    background-image: url("tulips-3339416.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-contact{
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 85%;
+    height: 65vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tex-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 50px;
+    column-gap: 200px;
+    text-align: left;
+}
+.tex-page div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tex-page h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.footter{
+    font-size: 18px;
+    letter-spacing: 1px ;
+    color: rgb(168, 34, 79);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footter:hover{
+    color: aliceblue;
+    text-shadow: 0 0 10px white;
+}
+
+
+#foo .page-contact{
+    height: auto;
+}
+
+
+#foo{
+    align-items: start;
+    height: auto;
+    padding: 65px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
